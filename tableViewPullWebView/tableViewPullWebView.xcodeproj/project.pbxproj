@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20D3A121D5DCF8F00885888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3A111D5DCF8F00885888 /* main.m */; };
+		E20D3A151D5DCF8F00885888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3A141D5DCF8F00885888 /* AppDelegate.m */; };
+		E20D3A1B1D5DCF8F00885888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20D3A191D5DCF8F00885888 /* Main.storyboard */; };
+		E20D3A1D1D5DCF8F00885888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20D3A1C1D5DCF8F00885888 /* Assets.xcassets */; };
+		E20D3A201D5DCF8F00885888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20D3A1E1D5DCF8F00885888 /* LaunchScreen.storyboard */; };
+		E20D3A2B1D5DCF8F00885888 /* tableViewPullWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3A2A1D5DCF8F00885888 /* tableViewPullWebViewTests.m */; };
+		E20D3A361D5DCF8F00885888 /* tableViewPullWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3A351D5DCF8F00885888 /* tableViewPullWebViewUITests.m */; };
+		E20D3A541D5DD57C00885888 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3A531D5DD57C00885888 /* TableViewController.m */; };
+		E20D3A5A1D5DD5BB00885888 /* MyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D3A591D5DD5BB00885888 /* MyWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E20D3A271D5DCF8F00885888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20D3A051D5DCF8F00885888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20D3A0C1D5DCF8F00885888;
+			remoteInfo = tableViewPullWebView;
+		};
+		E20D3A321D5DCF8F00885888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20D3A051D5DCF8F00885888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20D3A0C1D5DCF8F00885888;
+			remoteInfo = tableViewPullWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E20D3A0D1D5DCF8F00885888 /* tableViewPullWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewPullWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D3A111D5DCF8F00885888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E20D3A131D5DCF8F00885888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E20D3A141D5DCF8F00885888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E20D3A1A1D5DCF8F00885888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E20D3A1C1D5DCF8F00885888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E20D3A1F1D5DCF8F00885888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E20D3A211D5DCF8F00885888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20D3A261D5DCF8F00885888 /* tableViewPullWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewPullWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D3A2A1D5DCF8F00885888 /* tableViewPullWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewPullWebViewTests.m; sourceTree = "<group>"; };
+		E20D3A2C1D5DCF8F00885888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20D3A311D5DCF8F00885888 /* tableViewPullWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewPullWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D3A351D5DCF8F00885888 /* tableViewPullWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewPullWebViewUITests.m; sourceTree = "<group>"; };
+		E20D3A371D5DCF8F00885888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20D3A521D5DD57C00885888 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E20D3A531D5DD57C00885888 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E20D3A581D5DD5BB00885888 /* MyWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewController.h; sourceTree = "<group>"; };
+		E20D3A591D5DD5BB00885888 /* MyWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20D3A0A1D5DCF8F00885888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D3A231D5DCF8F00885888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D3A2E1D5DCF8F00885888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20D3A041D5DCF8F00885888 = {
+			isa = PBXGroup;
+			children = (
+				E20D3A0F1D5DCF8F00885888 /* tableViewPullWebView */,
+				E20D3A291D5DCF8F00885888 /* tableViewPullWebViewTests */,
+				E20D3A341D5DCF8F00885888 /* tableViewPullWebViewUITests */,
+				E20D3A0E1D5DCF8F00885888 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20D3A0E1D5DCF8F00885888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20D3A0D1D5DCF8F00885888 /* tableViewPullWebView.app */,
+				E20D3A261D5DCF8F00885888 /* tableViewPullWebViewTests.xctest */,
+				E20D3A311D5DCF8F00885888 /* tableViewPullWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20D3A0F1D5DCF8F00885888 /* tableViewPullWebView */ = {
+			isa = PBXGroup;
+			children = (
+				E20D3A131D5DCF8F00885888 /* AppDelegate.h */,
+				E20D3A141D5DCF8F00885888 /* AppDelegate.m */,
+				E20D3A521D5DD57C00885888 /* TableViewController.h */,
+				E20D3A531D5DD57C00885888 /* TableViewController.m */,
+				E20D3A581D5DD5BB00885888 /* MyWebViewController.h */,
+				E20D3A591D5DD5BB00885888 /* MyWebViewController.m */,
+				E20D3A191D5DCF8F00885888 /* Main.storyboard */,
+				E20D3A1C1D5DCF8F00885888 /* Assets.xcassets */,
+				E20D3A1E1D5DCF8F00885888 /* LaunchScreen.storyboard */,
+				E20D3A211D5DCF8F00885888 /* Info.plist */,
+				E20D3A101D5DCF8F00885888 /* Supporting Files */,
+			);
+			path = tableViewPullWebView;
+			sourceTree = "<group>";
+		};
+		E20D3A101D5DCF8F00885888 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20D3A111D5DCF8F00885888 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E20D3A291D5DCF8F00885888 /* tableViewPullWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E20D3A2A1D5DCF8F00885888 /* tableViewPullWebViewTests.m */,
+				E20D3A2C1D5DCF8F00885888 /* Info.plist */,
+			);
+			path = tableViewPullWebViewTests;
+			sourceTree = "<group>";
+		};
+		E20D3A341D5DCF8F00885888 /* tableViewPullWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E20D3A351D5DCF8F00885888 /* tableViewPullWebViewUITests.m */,
+				E20D3A371D5DCF8F00885888 /* Info.plist */,
+			);
+			path = tableViewPullWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20D3A0C1D5DCF8F00885888 /* tableViewPullWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20D3A3A1D5DCF8F00885888 /* Build configuration list for PBXNativeTarget "tableViewPullWebView" */;
+			buildPhases = (
+				E20D3A091D5DCF8F00885888 /* Sources */,
+				E20D3A0A1D5DCF8F00885888 /* Frameworks */,
+				E20D3A0B1D5DCF8F00885888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tableViewPullWebView;
+			productName = tableViewPullWebView;
+			productReference = E20D3A0D1D5DCF8F00885888 /* tableViewPullWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E20D3A251D5DCF8F00885888 /* tableViewPullWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20D3A3D1D5DCF8F00885888 /* Build configuration list for PBXNativeTarget "tableViewPullWebViewTests" */;
+			buildPhases = (
+				E20D3A221D5DCF8F00885888 /* Sources */,
+				E20D3A231D5DCF8F00885888 /* Frameworks */,
+				E20D3A241D5DCF8F00885888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20D3A281D5DCF8F00885888 /* PBXTargetDependency */,
+			);
+			name = tableViewPullWebViewTests;
+			productName = tableViewPullWebViewTests;
+			productReference = E20D3A261D5DCF8F00885888 /* tableViewPullWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E20D3A301D5DCF8F00885888 /* tableViewPullWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20D3A401D5DCF8F00885888 /* Build configuration list for PBXNativeTarget "tableViewPullWebViewUITests" */;
+			buildPhases = (
+				E20D3A2D1D5DCF8F00885888 /* Sources */,
+				E20D3A2E1D5DCF8F00885888 /* Frameworks */,
+				E20D3A2F1D5DCF8F00885888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20D3A331D5DCF8F00885888 /* PBXTargetDependency */,
+			);
+			name = tableViewPullWebViewUITests;
+			productName = tableViewPullWebViewUITests;
+			productReference = E20D3A311D5DCF8F00885888 /* tableViewPullWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20D3A051D5DCF8F00885888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "黄启山";
+				TargetAttributes = {
+					E20D3A0C1D5DCF8F00885888 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E20D3A251D5DCF8F00885888 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S6N3T7CNU3;
+						TestTargetID = E20D3A0C1D5DCF8F00885888;
+					};
+					E20D3A301D5DCF8F00885888 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S6N3T7CNU3;
+						TestTargetID = E20D3A0C1D5DCF8F00885888;
+					};
+				};
+			};
+			buildConfigurationList = E20D3A081D5DCF8F00885888 /* Build configuration list for PBXProject "tableViewPullWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20D3A041D5DCF8F00885888;
+			productRefGroup = E20D3A0E1D5DCF8F00885888 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20D3A0C1D5DCF8F00885888 /* tableViewPullWebView */,
+				E20D3A251D5DCF8F00885888 /* tableViewPullWebViewTests */,
+				E20D3A301D5DCF8F00885888 /* tableViewPullWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20D3A0B1D5DCF8F00885888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D3A201D5DCF8F00885888 /* LaunchScreen.storyboard in Resources */,
+				E20D3A1D1D5DCF8F00885888 /* Assets.xcassets in Resources */,
+				E20D3A1B1D5DCF8F00885888 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D3A241D5DCF8F00885888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D3A2F1D5DCF8F00885888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20D3A091D5DCF8F00885888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D3A151D5DCF8F00885888 /* AppDelegate.m in Sources */,
+				E20D3A541D5DD57C00885888 /* TableViewController.m in Sources */,
+				E20D3A121D5DCF8F00885888 /* main.m in Sources */,
+				E20D3A5A1D5DD5BB00885888 /* MyWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D3A221D5DCF8F00885888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D3A2B1D5DCF8F00885888 /* tableViewPullWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D3A2D1D5DCF8F00885888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D3A361D5DCF8F00885888 /* tableViewPullWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20D3A281D5DCF8F00885888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20D3A0C1D5DCF8F00885888 /* tableViewPullWebView */;
+			targetProxy = E20D3A271D5DCF8F00885888 /* PBXContainerItemProxy */;
+		};
+		E20D3A331D5DCF8F00885888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20D3A0C1D5DCF8F00885888 /* tableViewPullWebView */;
+			targetProxy = E20D3A321D5DCF8F00885888 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E20D3A191D5DCF8F00885888 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20D3A1A1D5DCF8F00885888 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E20D3A1E1D5DCF8F00885888 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20D3A1F1D5DCF8F00885888 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E20D3A381D5DCF8F00885888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E20D3A391D5DCF8F00885888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E20D3A3B1D5DCF8F00885888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = tableViewPullWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.tableViewPullWebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E20D3A3C1D5DCF8F00885888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = tableViewPullWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.tableViewPullWebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E20D3A3E1D5DCF8F00885888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tableViewPullWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.tableViewPullWebViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewPullWebView.app/tableViewPullWebView";
+			};
+			name = Debug;
+		};
+		E20D3A3F1D5DCF8F00885888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tableViewPullWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.tableViewPullWebViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewPullWebView.app/tableViewPullWebView";
+			};
+			name = Release;
+		};
+		E20D3A411D5DCF8F00885888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tableViewPullWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.tableViewPullWebViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tableViewPullWebView;
+			};
+			name = Debug;
+		};
+		E20D3A421D5DCF8F00885888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tableViewPullWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.tableViewPullWebViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tableViewPullWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20D3A081D5DCF8F00885888 /* Build configuration list for PBXProject "tableViewPullWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D3A381D5DCF8F00885888 /* Debug */,
+				E20D3A391D5DCF8F00885888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20D3A3A1D5DCF8F00885888 /* Build configuration list for PBXNativeTarget "tableViewPullWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D3A3B1D5DCF8F00885888 /* Debug */,
+				E20D3A3C1D5DCF8F00885888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E20D3A3D1D5DCF8F00885888 /* Build configuration list for PBXNativeTarget "tableViewPullWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D3A3E1D5DCF8F00885888 /* Debug */,
+				E20D3A3F1D5DCF8F00885888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E20D3A401D5DCF8F00885888 /* Build configuration list for PBXNativeTarget "tableViewPullWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D3A411D5DCF8F00885888 /* Debug */,
+				E20D3A421D5DCF8F00885888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20D3A051D5DCF8F00885888 /* Project object */;
+}
